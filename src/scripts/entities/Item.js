@@ -1,4 +1,4 @@
-class Item {
+export class Item {
     constructor(url, classNameStyle) {
         this._url = url;
         this._classNameStyle = classNameStyle;
@@ -20,5 +20,3 @@ class Item {
         this._classNameStyle = classNameStyle;
     }
 }
-
-export { Item };
